@@ -1,5 +1,7 @@
 # RenameImages
 
+![](https://github.com/HD2i/RenameImages/blob/master/renameImages.gif)
+
 This is a repository for the RenameImages app created to rename a folder of images used for animations in iOS projects where you would want the images named in sequentional order, i.e. "image1.png", "image2.png", "image3.png", etc.
 
 
