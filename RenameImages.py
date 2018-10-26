@@ -120,14 +120,6 @@ button = ttk.Button(mainframe, text="Rename",
 ## Row 7
 ttk.Label(mainframe, text="Made with ❤️ by: HD2i.org").grid(column = 2, row = 7, sticky = S)
 
-# hd2ipath = "a.png"
-#mountsinaipath = "mountsinai.gif"
-#hd2i = PIL.ImageTk.PhotoImage(PIL.Image.open(hd2ipath))
-#mountsinai = PIL.ImageTk.PhotoImage(file = mountsinaipath)
-#ttk.Label(mainframe, width=10, image = hd2i).grid(column = 2, row = 8, sticky = (S, E))
-#ttk.Label(mainframe, width=10, image = mountsinai).grid(column = 2, row = 8, sticky = (S, W))
-
-
 fileName.trace("w", update_label)
 default_separator.trace("w", update_label)
 default_startingIndex.trace("w", update_label)
